@@ -1,3 +1,3 @@
 def call(Map args) {
-    sh(script:"docker rm -f ${args.containerName}"
+    sh(script:"docker rm -f ${args.containerName}")
 }
